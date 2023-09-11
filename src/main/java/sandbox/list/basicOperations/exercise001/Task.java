@@ -1,4 +1,4 @@
-package main.java.sandbox.list.basicOperations;
+package main.java.sandbox.list.basicOperations.exercise001;
 
 public class Task {
     private String description;

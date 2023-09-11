@@ -1,6 +1,5 @@
-package main.java.sandbox.list.basicOperations;
+package main.java.sandbox.list.basicOperations.exercise001;
 
-import java.util.List;
 import java.util.Set;
 
 public class Main {
