@@ -18,5 +18,7 @@ public class Main {
         for (String taskDescription : uniqueTasksDescriptions) {
             System.out.println(taskDescription);
         }
+
+        taskList.printTasksDescrirptions();
     }
 }
