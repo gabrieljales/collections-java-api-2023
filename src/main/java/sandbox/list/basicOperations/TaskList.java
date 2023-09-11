@@ -43,4 +43,8 @@ public class TaskList {
 
         return uniqueDescriptions;
     }
+
+    public void printTasksDescrirptions() {
+        System.out.println(taskList);
+    }
 }
