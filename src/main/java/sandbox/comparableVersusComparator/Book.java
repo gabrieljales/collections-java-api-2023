@@ -3,9 +3,9 @@ package main.java.sandbox.comparableVersusComparator;
 public class Book implements Comparable<Book> {
     private String title;
     private String author;
-    private Integer releaseYear;
+    private int releaseYear;
 
-    public Book(String title, String author, Integer releaseYear) {
+    public Book(String title, String author, int releaseYear) {
         this.title = title;
         this.author = author;
         this.releaseYear = releaseYear;
@@ -37,7 +37,7 @@ public class Book implements Comparable<Book> {
 
     @Override
     public int compareTo(Book book) {
-        return releaseYear.compareTo(book.getReleaseYear());
+        return Integer.compare(releaseYear, book.getReleaseYear());
     }
 
     @Override
