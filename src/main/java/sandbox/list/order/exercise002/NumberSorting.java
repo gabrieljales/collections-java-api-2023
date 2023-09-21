@@ -1,4 +1,4 @@
-package main.java.sandbox.list.search.exercise002;
+package main.java.sandbox.list.order.exercise002;
 
 import java.util.ArrayList;
 import java.util.Collections;

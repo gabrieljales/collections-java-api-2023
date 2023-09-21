@@ -1,4 +1,4 @@
-package main.java.sandbox.list.order.exercise001;
+package main.java.sandbox.list.search.exercise001;
 
 public class Book {
     private String title;

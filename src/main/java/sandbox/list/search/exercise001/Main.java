@@ -2,14 +2,15 @@ package main.java.sandbox.list.search.exercise001;
 
 public class Main {
     public static void main(String[] args) {
-        PersonSorting personSorting = new PersonSorting();
+        BookCatalog bookCatalog = new BookCatalog();
 
-        personSorting.addPerson("Gabriel", 23, 1.65);
-        personSorting.addPerson("João", 33, 1.75);
-        personSorting.addPerson("Maria", 29, 1.55);
+        bookCatalog.addBook("Livro 001", "Autor 001", 2000);
+        bookCatalog.addBook("Livro 002", "Autor 002", 2002);
+        bookCatalog.addBook("Livro 003", "Autor 002", 2004);
+        bookCatalog.addBook("Livro 004", "Autor 003", 2006);
 
-        System.out.println(personSorting.orderByAge());
-
-        System.out.println(personSorting.orderByHeight());
+        System.out.println(bookCatalog.findByTitle("Livro 001"));
+        System.out.println(bookCatalog.findByAuthor("Autor 002"));
+        System.out.println(bookCatalog.findByPublicationYearRange(2000, 2004));
     }
 }

@@ -2,16 +2,15 @@ package main.java.sandbox.list.order.exercise002;
 
 public class Main {
     public static void main(String[] args) {
-        SumNumbers sumNumbers = new SumNumbers();
+        NumberSorting numberSorting = new NumberSorting();
 
-        sumNumbers.addNumber(1);
-        sumNumbers.addNumber(5);
-        sumNumbers.addNumber(9);
-        sumNumbers.addNumber(12);
+        numberSorting.addNumber(4);
+        numberSorting.addNumber(9);
+        numberSorting.addNumber(2);
+        numberSorting.addNumber(3);
 
-        System.out.println("Menor número: " + sumNumbers.findLowestNumber());
-        System.out.println("Maior número: " + sumNumbers.findHighestNumber());
-        System.out.println("Soma: " + sumNumbers.calculateSum());
-        System.out.println("Lista: " + sumNumbers.showNumberList());
+        numberSorting.showNumbers();
+        System.out.println(numberSorting.orderByAscendingOrder());
+        System.out.println(numberSorting.orderByDescendingOrder());
     }
 }
