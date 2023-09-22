@@ -1,4 +1,4 @@
-package main.java.sandbox.set.order;
+package main.java.sandbox.set.order.exercise001;
 
 public class Main {
     public static void main(String[] args) {
