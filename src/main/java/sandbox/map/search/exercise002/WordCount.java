@@ -30,6 +30,7 @@ public class WordCount {
         String mostFrequenteWord = null;
         int biggestCount = 0;
 
+        // O uso de Map.Entry permite que você acesse tanto a chave quanto o valor associado a ela em cada iteração
         for (Map.Entry<String, Integer> entry : wordCountMap.entrySet()) {
             if (entry.getValue() > biggestCount) {
                 biggestCount = entry.getValue();
